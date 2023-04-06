@@ -1,31 +1,34 @@
+//Evento Equivalente: 
+
+
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: "nmv_seguros_compra",
-  operacion:{
-    id:"",
+  operacion: {
+    id: "",
     dias_anticipacion: 10, //
   },
-  precio:{
+  precio: {
     moneda: "USD",
-    precioNormal:32.00,
-    precioFinal:32.00,
+    precioNormal: 32.0,
+    precioFinal: 32.0,
   },
-  metodo_pago:{
+  metodo_pago: {
     opcion: "Safety Pay",
   },
-  usuario:{
-    email:"",
-    primerNombre:"",
-    primerApellido:"",
-    fechaNacimiento:"",
-    nacionalidad:"",
+  usuario: {
+    email: "",
+    primerNombre: "",
+    primerApellido: "",
+    fechaNacimiento: "",
+    nacionalidad: "",
     genero: "",
-    documento_tipo:"",
-    documento_numero:"",
-    telefono_tipo:"",
-    telefono_codigo:"",
-    telefono_numero:"",
-    frecuencia:"",
+    documento_tipo: "",
+    documento_numero: "",
+    telefono_tipo: "",
+    telefono_codigo: "",
+    telefono_numero: "",
+    frecuencia: "",
   },
   origen: {
     nombre: "Perú",
@@ -42,7 +45,7 @@ window.dataLayer.push({
     codigo: "N3", // ida y vuelta, multidestino
     opcion: "El Mejor Plan", // Flex
     emisor: "AssistCard", //lite, standard, flex, business standard, business flex
-    monto_asistencia: 100000.00, // Monto maxma de asistencia en dolares.
+    monto_asistencia: 100000.0, // Monto maxma de asistencia en dolares.
     escalas: 2,
   },
   pasajeros: {

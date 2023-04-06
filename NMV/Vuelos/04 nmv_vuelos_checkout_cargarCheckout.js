@@ -1,36 +1,15 @@
+// Evento Equivalente: 
+
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-  event: "nmv_vuelos_reserva",
+  event: "nmv_vuelos_checkout_cargarCheckout",
   operacion:{
-    id:"",
     dias_anticipacion: 10, //
   },
   precio:{
-    moneda: "",
-    precioNormal:"",
-    precioFinal:"",
-  },
-  venta_cruzada:{
-    venta: "",
-    producto:"Seguro",
-    precio:"",
-  },
-  metodo_pago:{
-    opcion: "Safety Pay",
-  },
-  usuario:{
-    email:"",
-    primerNombre:"",
-    primerApellido:"",
-    fechaNacimiento:"",
-    nacionalidad:"",
-    genero: "",
-    documento_tipo:"",
-    documento_numero:"",
-    telefono_tipo:"",
-    telefono_codigo:"",
-    telefono_numero:"",
-    frecuencia:"",
+    moneda: "USD",
+    precioNormal:1000.00,
+    precioFinal:964.00,
   },
   origen: {
     nombre: "Cancún",
@@ -46,7 +25,8 @@ window.dataLayer.push({
     clase: "economic", //business, first class
     tipo: "solo ida", // ida y vuelta, multidestino
     equipaje: "", //lite, standard, flex, business standard, business flex
-    group_id: "",
+    group_id: "37fdee5e-0733-4440-805b-04d58c439ca7",
+    gds:"Amadeus",
     escalas: 2,
   },
   ruta: {
