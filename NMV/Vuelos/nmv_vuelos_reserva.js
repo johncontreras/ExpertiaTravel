@@ -5,17 +5,32 @@ window.dataLayer.push({
     id:"",
     dias_anticipacion: 10, //
   },
-
   precio:{
     moneda: "",
-    precio_normal:"",
-    precio_final:"",
+    precioNormal:"",
+    precioFinal:"",
   },
-
+  venta_cruzada:{
+    venta: "",
+    producto:"Seguro",
+    precio:"",
+  },
+  metodo_pago:{
+    opcion: "Safety Pay",
+  },
   usuario:{
     email:"",
-
-
+    primerNombre:"",
+    primerApellido:"",
+    fechaNacimiento:"",
+    nacionalidad:"",
+    genero: "",
+    documento_tipo:"",
+    documento_numero:"",
+    telefono_tipo:"",
+    telefono_codigo:"",
+    telefono_numero:"",
+    frecuencia:"",
   },
   origen: {
     nombre: "Cancún",
@@ -30,7 +45,9 @@ window.dataLayer.push({
   vuelo: {
     clase: "economic", //business, first class
     tipo: "solo ida", // ida y vuelta, multidestino
-    equipaje: "",
+    equipaje: "", //lite, standard, flex, business standard, business flex
+    group_id: "",
+    escalas: 2,
   },
   ruta: {
     aerolinea_salida: "LP",
