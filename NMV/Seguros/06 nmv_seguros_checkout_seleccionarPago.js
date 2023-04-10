@@ -3,32 +3,28 @@
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-  event: "nmv_seguros_compra",
-  operacion: {
-    id: "",
-    dias_anticipacion: 10, //
-  },
+  event: "nmv_seguros_checkout_seleccionarPago",
   precio: {
     moneda: "USD",
-    precioNormal: 32.0,
-    precioFinal: 32.0,
+    precioNormal: 32.00,
+    precioFinal: 32.00,
   },
   metodo_pago: {
     opcion: "Safety Pay",
   },
-  usuario: {
-    email: "",
-    primerNombre: "",
-    primerApellido: "",
-    fechaNacimiento: "",
-    nacionalidad: "",
-    genero: "",
-    documento_tipo: "",
-    documento_numero: "",
-    telefono_tipo: "",
-    telefono_codigo: "",
-    telefono_numero: "",
-    frecuencia: "",
+  usuario:{
+    email:"annie_andrade@gmail.com",
+    primerNombre:"Annie",
+    primerApellido:"Andrade",
+    fechaNacimiento:"21/12/1993",
+    nacionalidad:"Peru",
+    genero: "femenino",
+    documento_tipo:"DNI",
+    documento_numero:"70014526",
+    telefono_tipo:"celular",
+    telefono_codigo:"51",
+    telefono_numero:"940663173",
+    frecuencia:"pasajero-frecuente", // primera-reserva
   },
   origen: {
     nombre: "Perú",
@@ -37,16 +33,13 @@ window.dataLayer.push({
   },
   destino: {
     nombre: "Europa",
-    codigo: "",
-    pais: "",
   },
   seguro: {
     plan: "AC 100 NM DIARIA 5 A 30", //business, first class
     codigo: "N3", // ida y vuelta, multidestino
     opcion: "El Mejor Plan", // Flex
     emisor: "AssistCard", //lite, standard, flex, business standard, business flex
-    monto_asistencia: 100000.0, // Monto maxma de asistencia en dolares.
-    escalas: 2,
+    monto_asistencia: 100000.00, // Monto maxma de asistencia en dolares.
   },
   pasajeros: {
     adultos: 5,

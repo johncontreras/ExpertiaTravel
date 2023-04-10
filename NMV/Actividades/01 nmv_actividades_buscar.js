@@ -2,23 +2,14 @@
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-  event: "nmv_vuelos_buscar",
+  event: "nmv_actividades_buscar",
   operacion:{
     dias_anticipacion: 10, //
-  },
-  origen: {
-    nombre: "Cancún",
-    codigo: "CUN",
-    pais: "Mexico",
   },
   destino: {
     nombre: "Cusco",
     codigo: "CUZ",
     pais: "Peru",
-  },
-  vuelo: {
-    clase: "economic", //business, first class
-    tipo: "solo ida", // ida y vuelta, multidestino
   },
   pasajeros: {
     adultos: 5,

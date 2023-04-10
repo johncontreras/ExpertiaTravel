@@ -1,23 +1,19 @@
-// Evento Equivalente: 
+//Evento Equivalente: 
+
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-  event: "nmv_vuelos_reserva",
-  operacion:{
-    id:"1104036", // Código SRV
+  event: "nmv_seguros_transaccionExitosa",
+  operacion: {
+    id: "1104456", // Código SRV o equivalente con el que se guarda esta transaccion.
     dias_anticipacion: 10, //
   },
-  precio:{
+  precio: {
     moneda: "USD",
-    precioNormal:1000.00,
-    precioFinal:964.00,
+    precioNormal: 32.00,
+    precioFinal: 32.00,
   },
-  venta_cruzada:{
-    venta: "true",
-    producto:"Seguro",
-    precio:32.00,
-  },
-  metodo_pago:{
+  metodo_pago: {
     opcion: "Safety Pay",
   },
   usuario:{
@@ -35,26 +31,19 @@ window.dataLayer.push({
     frecuencia:"pasajero-frecuente", // primera-reserva
   },
   origen: {
-    nombre: "Cancún",
-    codigo: "CUN",
-    pais: "Mexico",
+    nombre: "Perú",
+    codigo: "PE",
+    pais: "Perú",
   },
   destino: {
-    nombre: "Cusco",
-    codigo: "CUZ",
-    pais: "Peru",
+    nombre: "Europa",
   },
-  vuelo: {
-    clase: "economic", //business, first class
-    tipo: "solo ida", // ida y vuelta, multidestino
-    equipaje: "", //lite, standard, flex, business standard, business flex
-    group_id: "37fdee5e-0733-4440-805b-04d58c439ca7",
-    gds:"Amadeus",
-    escalas: 2,
-  },
-  ruta: {
-    aerolinea_salida: "LP",
-    aerolinea_regreso: "AA",
+  seguro: {
+    plan: "AC 100 NM DIARIA 5 A 30", //business, first class
+    codigo: "N3", // ida y vuelta, multidestino
+    opcion: "El Mejor Plan", // Flex
+    emisor: "AssistCard", //lite, standard, flex, business standard, business flex
+    monto_asistencia: 100000.00, // Monto maxma de asistencia en dolares.
   },
   pasajeros: {
     adultos: 5,

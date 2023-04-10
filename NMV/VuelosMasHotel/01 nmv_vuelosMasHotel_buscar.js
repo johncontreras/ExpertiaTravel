@@ -2,7 +2,7 @@
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-  event: "nmv_vuelos_buscar",
+  event: "nmv_vuelosMasHotel_buscar",
   operacion:{
     dias_anticipacion: 10, //
   },
@@ -16,14 +16,15 @@ window.dataLayer.push({
     codigo: "CUZ",
     pais: "Peru",
   },
+  hotel:{
+    habitaciones: 2,
+  },
   vuelo: {
     clase: "economic", //business, first class
-    tipo: "solo ida", // ida y vuelta, multidestino
   },
   pasajeros: {
     adultos: 5,
     ninos: 1,
-    infantes: 0,
     total: 6,
   },
   fechas: {
