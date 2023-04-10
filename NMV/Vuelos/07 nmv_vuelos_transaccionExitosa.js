@@ -54,8 +54,8 @@ window.dataLayer.push({
     escalas: "directo", // 1 escala, 2 escalas, etc
   },
   ruta: {
-    aerolinea_salida: "LP",
-    aerolinea_regreso: "AA",
+    aerolinea_salida: "LP - LAN Perú",
+    aerolinea_regreso: "AA - American Airlines",
   },
   pasajeros: {
     adultos: 5,
