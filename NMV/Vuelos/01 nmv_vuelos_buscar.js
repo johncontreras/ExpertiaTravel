@@ -1,4 +1,4 @@
-// Evento Equivalente: 
+// Evento Equivalente: nmv.vuelos_ga_buscar
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
