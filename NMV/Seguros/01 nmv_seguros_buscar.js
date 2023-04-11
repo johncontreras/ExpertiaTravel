@@ -3,7 +3,7 @@
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-  event: "nmv_seguros_compra",
+  event: "nmv_seguros_buscar",
   operacion: {
     id: "1104456", // Código SRV o equivalente con el que se guarda esta transaccion.
     dias_anticipacion: 10, //
@@ -37,14 +37,6 @@ window.dataLayer.push({
   },
   destino: {
     nombre: "Europa",
-  },
-  seguro: {
-    plan: "AC 100 NM DIARIA 5 A 30", //business, first class
-    codigo: "N3", // ida y vuelta, multidestino
-    opcion: "El Mejor Plan", // Flex
-    emisor: "AssistCard", //lite, standard, flex, business standard, business flex
-    monto_asistencia: 100000.00, // Monto maxma de asistencia en dolares.
-    escalas: 2,
   },
   pasajeros: {
     adultos: 5,

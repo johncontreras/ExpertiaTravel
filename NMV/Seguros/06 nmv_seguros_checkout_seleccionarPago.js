@@ -35,10 +35,10 @@ window.dataLayer.push({
     nombre: "Europa",
   },
   seguro: {
-    plan: "AC 100 NM DIARIA 5 A 30", //business, first class
-    codigo: "N3", // ida y vuelta, multidestino
+    plan: "AC 100 NM DIARIA 5 A 30",
+    codigo: "N3",
     opcion: "El Mejor Plan", // Flex
-    emisor: "AssistCard", //lite, standard, flex, business standard, business flex
+    emisor: "AssistCard",
     monto_asistencia: 100000.00, // Monto maxma de asistencia en dolares.
   },
   pasajeros: {
