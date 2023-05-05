@@ -13,7 +13,7 @@ window.dataLayer.push({
     email:"annie_andrade@gmail.com",
     primerNombre:"Annie",
     primerApellido:"Andrade",
-    fechaNacimiento:"21/12/1993",
+    fechaNacimiento:"1993-12-21", //Año-mes-día
     nacionalidad:"Peru",
     genero: "femenino",
     documento_tipo:"DNI",
