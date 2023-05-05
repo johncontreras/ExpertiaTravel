@@ -16,9 +16,9 @@ window.dataLayer.push({
     lugar_devolucion: "Mismo Lugar", // ida y vuelta, multidestino
   },
   fechas: {
-    salida: "10/04/2023",
+    salida: "2023-04-10", //Año-mes-día
     hora_salida: "12:00 PM",
-    retorno: "14/04/2023",
+    retorno: "2023-04-14", //Año-mes-día
     hora_retorno: "06:02 AM",
     estadia: 3, //número de noches
   },
