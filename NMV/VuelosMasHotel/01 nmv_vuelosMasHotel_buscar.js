@@ -28,8 +28,8 @@ window.dataLayer.push({
     total: 6,
   },
   fechas: {
-    salida: "10/04/2023",
-    retorno: "14/04/2023",
+    salida: "2023-04-10",
+    retorno: "2023-04-14",
     estadia: 3, //número de noches
   },
 });
