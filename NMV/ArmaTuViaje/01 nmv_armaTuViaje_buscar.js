@@ -18,6 +18,6 @@ window.dataLayer.push({
     total: 6,
   },
   fechas: {
-    salida: "10/04/2023",
+    salida: "2023-04-10", //Año-mes-día
   },
 });
