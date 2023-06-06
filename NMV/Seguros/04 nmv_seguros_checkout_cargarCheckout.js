@@ -12,23 +12,6 @@ window.dataLayer.push({
     precioNormal: 32.00,
     precioFinal: 32.00,
   },
-  metodo_pago: {
-    opcion: "Safety Pay",
-  },
-  usuario:{
-    email:"annie_andrade@gmail.com",
-    primerNombre:"Annie",
-    primerApellido:"Andrade",
-    fechaNacimiento:"1993-12-21", //Año-mes-día
-    nacionalidad:"Peru",
-    genero: "femenino",
-    documento_tipo:"DNI",
-    documento_numero:"70014526",
-    telefono_tipo:"celular",
-    telefono_codigo:"51",
-    telefono_numero:"940663173",
-    frecuencia:"pasajero-frecuente", // primera-reserva
-  },
   origen: {
     nombre: "Perú",
     codigo: "PE",
